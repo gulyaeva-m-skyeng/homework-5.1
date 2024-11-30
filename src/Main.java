@@ -15,8 +15,8 @@ public class Main {
 
         //task 2
         System.out.println("Task 2");
-        int[] arr1 = new int[]{4, 5, 6};
-        double[] arr2 = new double[]{5.5, 6.65, 7.896};
+        int[] arr1 = new int[]{1, 2, 3};
+        double[] arr2 = new double[]{1.57, 7.654, 9.986};
         String[] arr3 = new String[]{"mango", "orange", "cacos"};
 
         for (int i = 0; i < arr1.length; i++) {
