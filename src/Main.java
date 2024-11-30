@@ -42,6 +42,40 @@ public class Main {
             }
         }
         System.out.println();
+
+
+        //task 3
+        System.out.println("Task 3");
+        int[] arr4 = new int[]{1, 2, 3};
+        double[] arr5 = new double[]{1.57, 7.654, 9.986};
+        int[] arr6 = new int[]{4, 5, 6, 7, 8};
+
+        System.out.print("arr4 в обратном порядке: ");
+        for (int i = arr4.length - 1; i >= 0; i--) {
+            System.out.print(arr4[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        System.out.print("arr5 в обратном порядке: ");
+        for (int i = arr5.length - 1; i >= 0; i--) {
+            System.out.print(arr5[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
+
+        System.out.print("arr6 в обратном порядке: ");
+        for (int i = arr6.length - 1; i >= 0; i--) {
+            System.out.print(arr6[i]);
+            if (i != 0) {
+                System.out.print(", ");
+            }
+        }
+        System.out.println();
     }
 }
 
